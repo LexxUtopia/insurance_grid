@@ -1,0 +1,25 @@
+.header {
+    height: 724px;
+    background-color: #c5dceb;
+    background-image: url('/images/family.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.join-content {
+    padding-top: 70px;
+    padding-bottom: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.join-text {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.join-bttn {
+    padding: 10px 40px;
+    border-radius: 20px 20px;
+    background-color: #fff;
+}

@@ -1,0 +1,10 @@
+.more-box {
+    display: flex;
+    justify-content: center;
+    height: 315px;
+}
+
+.more-box-content {
+    text-align: center;
+    align-self: center;
+}
