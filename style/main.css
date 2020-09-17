@@ -8,3 +8,16 @@
     text-align: center;
     align-self: center;
 }
+
+.more-box-link {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.main-content-join-bttn {
+    display: none;
+}
+
+.main-content {
+    background-color: #a9a19e;
+}

@@ -8,16 +8,30 @@ body {
     background-color: #EBEBEB;
 }
 
+a {
+    text-decoration-line: none;
+}
+
 .white {
     color: #fff;
 }
 
-.bg-red {
-    height: 200px;
-    background: red;
+.bg-darkorange {
+    background: #f17949;
 }
 
-.bg-green {
-    height: 200px;
-    background: green;
+.bg-orange {
+    background: #fab131;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-direction-col {
+    flex-direction: column;
+}
+
+.flex-item {
+    display: inline-block;
 }
