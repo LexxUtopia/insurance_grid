@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+:root {
+    --white: #fff;
+    --lightgrey: #ebebeb;
+    --grey: #a9a19e;
+    --darkgrey: #777574;
+    --skyblue: #c7ddea;
+    --orange: #fab131;
+    --darkorange: #f17949;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -5,23 +17,34 @@
 }
 
 body {
-    background-color: #EBEBEB;
+    background-color: var(--lightgrey);
 }
 
 a {
     text-decoration-line: none;
 }
 
+@media (min-width: 1002px) {
+    .page-wrap {
+        margin: 0 auto;
+        width: 1002px;
+    }
+
+    .main {
+        display: grid;
+    }
+}
+
 .white {
-    color: #fff;
+    color: var(--white);
 }
 
 .bg-darkorange {
-    background: #f17949;
+    background: var(--darkorange);
 }
 
 .bg-orange {
-    background: #fab131;
+    background: var(--orange);
 }
 
 .flex {

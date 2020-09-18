@@ -1,0 +1,21 @@
+.footer {
+    height: 218px;
+    background-color: var(--darkgrey);
+}
+
+.pageup-box {
+    display: none;
+}
+
+@media (min-width: 1002px) {
+    .footer {
+        height: 340px;
+    }
+
+    .pageup-box {
+        display: block;
+        width: 100%;
+        height: 68px;
+        background-color: var(--grey);
+    }
+}
