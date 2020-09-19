@@ -1,5 +1,5 @@
 .header {
-    height: 724px;
+    height: calc(100vh - 50px);
     background-color: #c5dceb;
     background-image: url('/images/family.png');
     background-repeat: no-repeat;

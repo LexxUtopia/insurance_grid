@@ -19,6 +19,7 @@
 
 body {
     font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
     background-color: var(--lightgrey);
 }
 
@@ -36,7 +37,8 @@ h1 {
 }
 
 h2 {
-    font-size: 48px;
+    height: 110px;
+    font-size: 45px;
 }
 
 .white {
