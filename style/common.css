@@ -9,6 +9,8 @@
     --skyblue: #c7ddea;
     --orange: #fab131;
     --darkorange: #f17949;
+    --blackshadow: rgba(0, 0, 0, 0.4);
+    --blackershadow: rgba(0, 0, 0, 0.6);
 }
 
 *, *::before, *::after {
@@ -37,7 +39,6 @@ h1 {
 }
 
 h2 {
-    height: 110px;
     font-size: 45px;
 }
 
