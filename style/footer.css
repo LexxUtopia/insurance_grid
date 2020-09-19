@@ -21,10 +21,18 @@
     }
 
     .pageup-link {
-        display: inline-block;
+        display: block;
         width: 100%;
         height: 68px;
         font-size: 17px;
         color: 0,0,0,0.7;
+    }
+
+    .pageup-link::before {
+        display: block;
+        height: 0;
+        content: url('/images/arrow.svg');
+        position: relative;
+        bottom: 14px;
     }
 }

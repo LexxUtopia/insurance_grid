@@ -20,5 +20,10 @@
         height: 60px;
         text-align: center;
         line-height: 60px;
+        color: var(--blackshadow);
+    }
+
+    .nav-list-link-current {
+        color: #000;
     }
 }

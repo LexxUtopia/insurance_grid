@@ -27,6 +27,7 @@ body {
 
 a {
     text-decoration-line: none;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 h1, h2 {
@@ -52,6 +53,15 @@ h2 {
 
 .bg-orange {
     background: var(--orange);
+}
+
+.join-bttn {
+    padding: 10px 40px;
+    width: 160px;
+    border-radius: 20px 20px;
+    text-align: center;
+    background-color: #fff;
+    text-transform: uppercase;
 }
 
 .flex {

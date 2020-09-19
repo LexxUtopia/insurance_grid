@@ -18,13 +18,6 @@
     padding-bottom: 24px;
 }
 
-.join-bttn {
-    padding: 10px 40px;
-    width: 140px;
-    border-radius: 20px 20px;
-    background-color: #fff;
-}
-
 @media (min-width: 900px) {
     .header {
         height: calc(100vh - 60px);
